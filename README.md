@@ -6,7 +6,7 @@ This project was made reading and following the instructions of the book
 ## Initial setup
 
 ```bash
-$ pipenv install django~=3.1.0
+$ pipenv install
 $ pipenv shell
 (blog) $ python manage.py migrate
 (blog) $ python manage.py runserver
