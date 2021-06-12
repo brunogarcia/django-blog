@@ -5,7 +5,9 @@
     <div class="post-entry">
       <h2>{{ post.title }}</h2>
       <p>{{ post.body }}</p>
-      <p><a href="{% url 'post_detail' post.pk %}">Read more</p>
+      <p>
+        <a href="{% url 'post_detail' post.pk %}">Read more</a>
+      </p>
     </div>
   {% endfor %}
 {% endblock content %}
